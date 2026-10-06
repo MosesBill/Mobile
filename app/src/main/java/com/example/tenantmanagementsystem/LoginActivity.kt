@@ -33,6 +33,7 @@ class LoginActivity : AppCompatActivity() {
             binding.helpTextView.setOnClickListener {
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.strathmore.edu"))
                 startActivity(intent)
+
             }
         }
     }
