@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             }
             val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:${tenant.phone}"))
             startActivity(intent)
+
         }
     }
 }
